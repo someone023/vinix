@@ -52,5 +52,26 @@
       autoindent = true; # Do clever autoindenting
       textwidth = 0; # Maximum width of text that is being inserted.  A longer line will be
     };
+    extraConfigLua = ''
+      local opt = vim.opt
+      local g = vim.g
+      local o = vim.o
+        -- Neovide
+      if g.neovide then
+        -- Neovide options
+        g.neovide_fullscreen = false
+        g.neovide_hide_mouse_when_typing = false
+        g.neovide_cursor_vfx_mode = "ripple"
+        g.neovide_cursor_animate_command_line = true
+        g.neovide_cursor_animate_in_insert_mode = true
+        g.neovide_cursor_vfx_particle_lifetime = 5.0
+        g.neovide_cursor_vfx_particle_density = 14.0
+        g.neovide_cursor_vfx_particle_speed = 12.0
+        --g.neovide_transparency = 0.8
+
+        -- Neovide Fonts
+        o.guifont = "JetBrainsMono Nerd Font:h15:Medium:i"
+      end
+    '';
   };
 }
