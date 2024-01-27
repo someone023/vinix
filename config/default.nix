@@ -3,7 +3,6 @@
   imports = [
     ./autocommands.nix
     ./options.nix
-    ./persistence.nix
     ./keymaps.nix
     ./cmp.nix
     ./plugins

@@ -1,7 +1,6 @@
 {
   imports = [
     ./barbar.nix
-    ./comment.nix
     ./efm.nix
     ./lsp.nix
     ./lualine.nix
@@ -13,7 +12,6 @@
     ./notify.nix
     ./indent-blankline.nix
     ./yanky.nix
-    ./illuminate.nix
   ];
 
   colorschemes.tokyonight = {
@@ -21,21 +19,12 @@
     enable = true;
   };
   plugins = {
-    gitsigns = {
-      enable = true;
-      signs = {
-        add.text = "+";
-        change.text = "~";
-      };
-    };
-
     nvim-autopairs.enable = true;
-
-    nvim-colorizer = {
+    hardtime = {
       enable = true;
-      userDefaultOptions.names = false;
+      allowDifferentKey = true;
+      disableMouse = false;
+      maxCount = 20;
     };
-
-    oil.enable = true;
   };
 }
