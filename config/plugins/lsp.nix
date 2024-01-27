@@ -1,5 +1,6 @@
 {
   plugins = {
+    clangd-extensions.enable = true;
     lsp = {
       enable = true;
       servers = {

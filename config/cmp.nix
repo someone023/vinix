@@ -181,7 +181,7 @@
       })
     })  '';
 
-    plugins.luasnip = {
+  plugins.luasnip = {
     enable = true;
     extraConfig = {
       enable_autosnippets = true;

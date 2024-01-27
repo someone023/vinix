@@ -17,7 +17,9 @@
   colorschemes.tokyonight = {
     style = "night";
     enable = true;
+    terminalColors = true;
   };
+
   plugins = {
     nvim-autopairs.enable = true;
     hardtime = {

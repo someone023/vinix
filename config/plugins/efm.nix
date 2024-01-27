@@ -14,7 +14,7 @@
 
     lsp-format = {
       enable = true;
-      #lspserverstoenable = ["efm"];
+      lspserverstoenable = ["efm"];
     };
 
     efmls-configs = {

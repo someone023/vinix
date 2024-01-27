@@ -20,6 +20,8 @@
       ];
     };
 
+    rainbow-delimiters.enable = true;
+
     treesitter-refactor = {
       enable = true;
       highlightDefinitions = {
