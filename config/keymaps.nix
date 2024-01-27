@@ -175,7 +175,7 @@
     # Quit/Session
     {
       mode = "n";
-      key = "<leader>qq";
+      key = "<leader>qa";
       action = "<cmd>quitall<cr><esc>";
       options = {
         silent = true;
