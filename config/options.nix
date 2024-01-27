@@ -59,7 +59,6 @@
         -- Neovide
       if g.neovide then
         -- Neovide options
-        g.neovide_fullscreen = false
         g.neovide_hide_mouse_when_typing = false
         g.neovide_cursor_vfx_mode = "ripple"
         g.neovide_cursor_animate_command_line = true
