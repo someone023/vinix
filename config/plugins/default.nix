@@ -14,10 +14,10 @@
     ./yanky.nix
   ];
 
-  colorschemes.tokyonight = {
-    style = "night";
+  colorschemes.oxocarbon = {
+    #style = "night";
     enable = true;
-    terminalColors = true;
+    #terminalColors = true;
   };
 
   plugins = {
